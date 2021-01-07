@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 666</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-primary">
+    <div id="__gatsby">
+        <div style="outline:none" tabindex="-1" id="gatsy-focus-wrapper">
+            <header>
+                <nav class="bg-gray-800">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="flex items-center justify-between h-16">
+                            <div class="flex items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="h-8 w-8"
+                                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                                        alt="Workflow">
+                                </div>
+                                <div class="hidden md:block">
+                                    <div class="ml-10 flex items-baseline space-x-4">
+
+                                        <a href="#"
+                                            class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+
+                                        <a href="#"
+                                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+
+                                        <a href="#"
+                                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+
+                                        <a href="#"
+                                            class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </nav>
+            </header>
+            <main class="bg-primary container m-auto px-5 mt-16 sm:px-12 md:px-20 max-w-screen-xl">
+                <div class="grid grid-cols-3 gap-6" style="margin-top: 80px;">
+                    <div class=" sm:col-span-1 md:col-span-1 lg:col-span-2">
+                        <p class="text-letas">
+                            <font size="12"><b> Hi, I’m Jeff.
+                                    I’m an experienced game developer with deep interest in modern web
+                                    development.</b> </font>
+                        </p>
+
+                    </div>
+                    <div style="width: 250px; height: 250px; border-radius: 100%; background-color: #81E6D9;">
+                        <img style="width: 90%; height: 90%; border-radius: 100%;" src="images/the-avatar.png" alt="">
+
+                    </div>
+                </div>
+                <section class>
+                    <h1 class="mt-64 font-normal text-accent tracking-widestest">Blogs Recientes</h1>
+                        <ul class="mt-4">
+                            <li class="py-4 m-5 ">
+                                <a href="">
+                                    <div class="-mx-5 -my-3 px-5 py-3 group flex flex-col sm:flex-row sm:justify-between sm:items-end hover:bg-secondary">
+                                        <div >
+                                            <h3 class="text-xl font-semibold group-hover:text-accent text-white">Hola</h3>
+                                            <h3 class="font-medium text-tertiary text-white">Que tal?</h3>
+                                        </div>
+                                        <div class="mt-2 sm:mt-0 text-sm sm:text-base sm:text-tertiary text-white">Enero</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="py-4 m-5">
+                                <a href="">
+                                    <div class="-mx-5 -my-3 px-5 py-3 group flex flex-col sm:flex-row sm:justify-between sm:items-end hover:bg-secondary">
+                                        <div>
+                                            <h3 class="text-xl font-semibold group-hover:text-accent text-white">No vino</h3>
+                                            <h3 class="font-medium text-tertiary text-white">Juanito?</h3>
+                                        </div>
+                                        <div class="mt-2 sm:mt-0 text-sm sm:text-base  sm:text-tertiary text-white">Febrero</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>              
+                </section>
+                <section class>
+                    <h2 class="mt-32 font-normal text-accent tracking-widestest">PROJECTS</h2>
+                    <ul class="mt-3 divide-y divide-subtle">
+                        <li class="py-3">
+                            <a href="https://jeffjadulco.com/" target="_blank" rel="noopener noreferrer">
+                            <div class="-mx-5 -my-3 px-5 py-3 group flex justify-between sm:items-end space-x-3 sm:space-x-0 hover:bg-secondary">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-primary group-hover:text-accent text-text_primary">jeffjadulco.com</h3>
+                                    <h4 class="font-medium text-tertiary text-text_tertiary">My personal website made with React and Gatsby</h4>
+                                </div>
+                                <span class="text-sm sm:text-base text-accent sm:text-tertiary text-text_tertiary">2020</span>
+                            </div>
+                            </a>
+                        </li>
+
+                        <li class="py-3">
+                            <a href="https://jeffjads-todo-app-react.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                <div class="-mx-5 -my-3 px-5 py-3 group flex justify-between sm:items-end space-x-3 sm:space-x-0 hover:bg-secondary">
+                                    <div>
+                                        <h3 class="text-xl font-semibold text-primary group-hover:text-accent text-text_primary">to do app</h3>
+                                        <h4 class="font-medium text-tertiary text-text_tertiary">My first time with React</h4>
+                                    </div>
+                                    <span class="text-sm sm:text-base text-accent sm:text-tertiary text-text_tertiary">2020</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="py-3">
+                            <a href="https://github.com/jeffjadulco/unity-guid-regenerator" target="_blank" rel="noopener noreferrer">
+                                <div class="-mx-5 -my-3 px-5 py-3 group flex justify-between sm:items-end space-x-3 sm:space-x-0 hover:bg-secondary">
+                                    <div>
+                                        <h3 class="text-xl font-semibold text-primary group-hover:text-accent text-text_primary">unity-guid-regenerator</h3>
+                                        <h4 class="font-medium text-tertiary text-text_tertiary">An editor tool I made to regenerate GUID of Unity assests</h4>
+                                    </div>
+                                    <span class="text-sm sm:text-base text-accent sm:text-tertiary text-text_tertiary">2020</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="py-3">
+                            <a href="https://globalgamejam.org/2016/games/abducktion" target="_blank" rel="noopener noreferrer">
+                                <div class="-mx-5 -my-3 px-5 py-3 group flex justify-between sm:items-end space-x-3 sm:space-x-0 hover:bg-secondary">
+                                    <div>
+                                        <h3 class="text-xl font-semibold text-primary group-hover:text-accent text-text_primary">Abducktion</h3>
+                                        <h4 class="font-medium text-tertiary text-text_tertiary">Global Game Jam 2016 entry. Maade with friends</h4>
+                                    </div>
+                                    <span class="text-sm sm:text-base text-accent sm:text-tertiary text-text_tertiary">2016</span>
+                                </div>
+                            </a>
+                        </li>                    
+                    </ul>
+                </section>
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <div class="bg-info-202">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold text-center text-blco">Get in touch
+                <span role="img" aria-label="wave">👋</span>
+            </h1>
+            <p class=" text-blco px-4 mt-4 text-center">Feel free to email me about anything. Want some advice? Give
+                some
+                feedback?</p>
+            <p class="px-4 mt-1 text-center text-blco">You can also reach me around the web:
+                <a href="https://github.com" class="font-medium text-accent hover:underline text-zul">GitHub</a>,
+                <a href="https://twitter.com" class="font-medium text-accent hover:underline text-zul">Twitter</a>,
+                <a href="https://www.instagram.com"
+                    class="font-medium text-accent hover:underline text-zul">Instagram</a>
+            </p>
+            <div class="mx-auto  pt-10 flex justify-center">
+                <a class="px-20 py-2 rounded  bg-info-204">
+                    <span class=" text-2xl font-semibold text-on-accent">Say hello</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="relative bg-info-202">
+        <div class="container  px-5 md:px-20 pb-12 pt-24">
+            <div class="container flex-col ">
+                <nav class="hidden lg:flex flex-row items-center space-x-6 justify-center md:justify-end text-sm">
+                    <a aria-current="page" title="Home" class="" href="/">
+                        <span class="font-normal text-base hover:text-accent text-blco">Home</span></a>
+                    <a title="Blog" href="/blog">
+                        <span class="font-normal text-base hover:text-accent text-blco">Blog</span></a>
+                    <a title="Projects" href="/projects">
+                        <span class="font-normal text-base hover:text-accent text-blco">Projects</span></a>
+                    <a title="About" href="/about">
+                        <span class="font-normal text-base hover:text-accent text-blco">About</span></a>
+                </nav>
+                <div class="flex flex-col-reverse md:flex-row md:justify-between">
+                    <span class="md:self-end text-blco">© 2020 Yavirac. All Rights Reserved.</span>
+                    <div class="flex flex-row items-center space-x-4 justify-center md:justify-end">
+                        <span>
+                            <a>
+                                <svg aria-hidden="true" class="h-8 w-8 hover:text-accent ">
+                                    <path
+                                        d="M25 5H5a2.497 2.497 0 00-2.487 2.5l-.013 15C2.5 23.875 3.625 25 5 25h20c1.375 0 2.5-1.125 2.5-2.5v-15C27.5 6.125 26.375 5 25 5zm-.5 5.313l-8.838 5.524c-.4.25-.925.25-1.325 0L5.5 10.314a1.063 1.063 0 111.125-1.8L15 13.75l8.375-5.238a1.062 1.062 0 111.125 1.8z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://github.com">
+                                <svg aria-hidden="true" class="h-8 w-8 ">
+                                    <path
+                                        d="M14.988 2.235C7.743 2.232 1.875 8.098 1.875 15.337c0 5.724 3.67 10.59 8.783 12.378.689.173.583-.317.583-.65v-2.271c-3.975.466-4.137-2.165-4.403-2.605-.54-.92-1.814-1.154-1.433-1.593.906-.466 1.828.117 2.898 1.696.773 1.145 2.282.952 3.047.762a3.695 3.695 0 011.016-1.781c-4.119-.739-5.836-3.253-5.836-6.24 0-1.451.478-2.784 1.415-3.86-.597-1.772.056-3.29.144-3.515 1.702-.152 3.471 1.219 3.61 1.327.966-.26 2.07-.398 3.307-.398 1.242 0 2.35.143 3.325.407.331-.252 1.972-1.43 3.554-1.286.085.226.723 1.708.16 3.457.95 1.078 1.433 2.423 1.433 3.876 0 2.994-1.728 5.51-5.859 6.237a3.733 3.733 0 011.116 2.666v3.296c.024.264 0 .525.44.525 5.188-1.75 8.924-6.65 8.924-12.425 0-7.242-5.872-13.105-13.11-13.105z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://twitter.com">
+                                <svg aria-hidden="true" class="h-8 w-8">
+                                    <path
+                                        d="M15 1.875C7.752 1.875 1.875 7.752 1.875 15S7.752 28.125 15 28.125 28.125 22.248 28.125 15 22.248 1.875 15 1.875zm6.308 9.894c.008.137.008.28.008.421 0 4.301-3.275 9.255-9.26 9.255a9.228 9.228 0 01-4.998-1.459c.263.03.515.041.785.041a6.528 6.528 0 004.04-1.388 3.255 3.255 0 01-3.041-2.256c.5.073.952.073 1.468-.059a3.251 3.251 0 01-2.605-3.193v-.041c.43.243.938.392 1.468.413a3.255 3.255 0 01-1.45-2.707c0-.606.158-1.16.442-1.64a9.237 9.237 0 006.709 3.4c-.46-2.211 1.192-4.001 3.179-4.001.937 0 1.781.392 2.376 1.025a6.427 6.427 0 002.065-.782 3.239 3.239 0 01-1.43 1.79 6.438 6.438 0 001.875-.507 6.821 6.821 0 01-1.631 1.688z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://www.instagram.com/">
+                                <svg aria-hidden="true" class="h-8 w-8">
+                                    <path
+                                        d="M16 11.834A4.174 4.174 0 0011.834 16 4.174 4.174 0 0016 20.166 4.174 4.174 0 0020.166 16 4.174 4.174 0 0016 11.834zM28.494 16c0-1.725.015-3.434-.081-5.156-.097-2-.554-3.775-2.016-5.238-1.466-1.465-3.238-1.919-5.238-2.015-1.725-.097-3.434-.082-5.156-.082-1.725 0-3.434-.015-5.156.082-2 .096-3.775.553-5.238 2.015-1.465 1.466-1.918 3.238-2.015 5.238-.097 1.725-.081 3.434-.081 5.156 0 1.722-.016 3.434.08 5.156.098 2 .554 3.775 2.016 5.238 1.466 1.465 3.238 1.919 5.238 2.015 1.725.097 3.434.082 5.156.082 1.725 0 3.434.015 5.156-.082 2-.096 3.775-.553 5.238-2.015 1.466-1.466 1.919-3.238 2.016-5.238.1-1.722.08-3.431.08-5.156zM16 22.41A6.4 6.4 0 019.59 16 6.4 6.4 0 0116 9.59 6.4 6.4 0 0122.41 16 6.4 6.4 0 0116 22.41zm6.672-11.585a1.495 1.495 0 01-1.497-1.497c0-.828.669-1.497 1.497-1.497a1.495 1.495 0 011.383 2.07 1.495 1.495 0 01-1.383.924z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
